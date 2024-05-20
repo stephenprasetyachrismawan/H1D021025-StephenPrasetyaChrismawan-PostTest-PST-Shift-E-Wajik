@@ -1,0 +1,14 @@
+1. Servo
+Cara kerja servo yaitu dengan menginisiasikan objek Servo yang telah diimpor dari library. Kemudian Untuk mengatur pergerakan servo maka dituliskan pergerakan sudutnya di codingan. Servo dihubungkan ke 3v3 dan juga pin digital.
+
+2. LCD
+Cara kerja LCD yaitu LCD dihubungkan ke 3v3 dan pin digital yang sesuai. Lalu membuat codingan untuk mencari alamat LCD yang sesuai biasanya 0x27. Kemudian membuat codingan untuk menginisiasikan LCD menggunakan library, lalu melakukan write ke lcd. LCD terdiri dari 2 baris dan 16 kolom umumnya.
+
+3. Contoh PST pada kehidupan sehari hari.
+- contohnya termometer akan berbunyi jika suhunya melebihi suhu tubuh normal
+- Presensi menggunakan sidik jari dan rf id
+- Gerbang Parkir mendeteksi kartu dan plat nomor untuk terbuka
+- Saat pencahayaan kurang, lampu akan menyala sendiri
+- Pengisian toren air akan berhenti apabila toren sudah penuh.
+
+4. Projek yang akan diambil yaitu alat mengubah gambar / foto yang ada di depan user menjadi suara untuk mendeskripsikannya. Jadi, kami menggunakan api dari google untuk mengubah foto menjadi teks, sumber foto kami ambil dari kamera, lalu diproses di rasbery pi, dan AI akan merubah menjadi teks, kemudian teks kami suarakan dengan tec=xt to speech menjadi suara yang dikeluarkan melalui earphone bluetooth.
